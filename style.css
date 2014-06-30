@@ -1,0 +1,314 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color:#f5f4f2;
+}
+
+.container{
+  width:950px;
+  margin: 0 auto;
+}
+
+.row{
+  *zoom:1;
+}
+
+.row:before,
+.row:after{
+  content:" ";
+  display:table;
+  width: 0;
+  height: 0;
+}
+
+.row:after{
+  clear:both;
+}
+
+.box{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+
+/*stat menu in header*/
+/*start floor1*/
+.floor1{}
+.box11{
+  width:100%;
+  float: left;
+}
+
+.main{
+  list-style-type: none;
+  padding-left: 25%;
+  padding-top: 20px;
+}
+
+.main li{
+  float: left;
+  
+
+}
+
+.main li a{
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+  color: #767675;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 16px;
+  padding: 10px 30px 0 0;
+
+}
+
+.main li a:hover{
+  color: #969695;
+}
+
+/*end hedear and floor1*/
+
+/*start floor2*/
+
+.floor2{}
+.box21{
+  width:25%;
+  float: left;
+  margin-top: -45px;
+}
+.box22{
+  width:75%;
+  float: left;
+}
+
+.h221{
+  font-family: 'Gafata', sans-serif;
+  font-size: 19px;
+  margin-top: 40px;
+  color: #515151;
+  line-height: 2;
+}
+
+.p222{
+  line-height: 2;
+  font-size: 17px;
+ font-family: 'Alegreya Sans SC', sans-serif;
+ color: #a09f9e;
+}
+
+/*end floor2*/
+
+/*start floor3*/
+
+.floor3{
+  width:100%;
+  height: 350px;
+  background-color: silver;
+  overflow: hidden;
+  margin: 50px auto 0;
+}
+
+.floor3 ul{
+  list-style-type: none;
+  width:1500px;
+}
+
+.floor3 ul li{
+  width:190px;
+  height: 350px;
+  float: left;
+  transition:all 1s;
+}
+
+.floor3:hover ul li{
+  width:80px;
+  transition:all 2s;
+}
+
+
+.floor3 ul li:hover{
+  width:630px;
+ transition:all 2s;
+
+  
+}
+
+.floor3 ul li:nth-child(1){
+  background-image: url('image/a.jpg');
+}
+
+.floor3 ul li:nth-child(2){
+  background-image: url('image/b.jpg');
+}
+
+.floor3 ul li:nth-child(3){
+  background-image: url('image/c.jpg');
+}
+
+.floor3 ul li:nth-child(4){
+  background-image: url('image/d.jpg');
+}
+
+.floor3 ul li:nth-child(5){
+  background-image: url('image/e.jpg')
+}
+
+.floor3 ul li:last-child{
+  padding-right: 550px;
+}
+
+/*end floor3*/
+
+/*start floor4*/
+
+.floor4{
+  margin-top: 50px;
+}
+
+
+.box41{
+  width:33%;
+  float:left;
+  background-image: url('image/a41.jpg');
+  height: 110px;
+  background-repeat: no-repeat;
+}
+
+.box42{
+  width:33%;
+  float:left;
+  background-image: url('image/b42.jpg');
+  height: 110px;
+  background-repeat: no-repeat;
+}
+
+.box43{
+  width:33%;
+  float:left;
+  background-image: url('image/c43.jpg');
+  height: 110px;
+  background-repeat: no-repeat;
+}
+
+.p41{
+  background-color: #DEDC00;
+  text-transform: capitalize;
+  font-size: 17px;
+  font-family: 'Gafata', sans-serif;
+  color: black;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+/*end floor4*/
+
+/*start floor5*/
+
+.box51{
+  width:33%;
+  float: left;
+  margin-top: 25px;
+}
+
+.box52{
+  width:33%;
+  float: left;
+  margin-top: 25px;
+}
+
+.box53{
+  width:33%;
+  float: left;
+  margin-top: 25px;
+}
+
+.p5{
+	font-size: 13px;
+	line-height: 2;
+	white-space: nowrap;
+	color:#5D5D5C;
+}
+
+/*end floor5*/
+/*start floor6*/
+
+.box61{
+	width:25%;
+	float: left;
+	padding-top: 20px;
+}
+.box62{
+	width:25%;
+	float: left;
+	padding-top: 20px;
+}
+.box63{
+	width:25%;
+	float: left;
+	padding-top: 20px;
+}
+.box64{
+	width:25%;
+	float: left;
+	padding-top: 20px;
+}
+
+.box61 p{
+	font-size: 13px;
+	color: #525251;
+	padding-bottom: 18px;
+}
+
+div.box61 a{
+	text-decoration: none;
+	color: #525251;
+	font-size: 15px;
+}
+
+div.box62 a.a62{
+	background-image: url('image/logo62.gif');
+	background-repeat: no-repeat;
+	padding-left: 18px;
+	text-decoration: none;
+	color: #525251;
+}
+
+div.box62 a{
+	text-decoration: none;
+	color: #525251;
+	font-size: 15px;
+}
+
+.box63 p{
+	font-size: 13px;
+	color: #525251;
+	padding-bottom: 18px;
+}
+
+
+div.box63 a{
+	text-decoration: none;
+	color: #525251;
+	font-size: 15px;
+}
+
+
+.box64 p{
+	font-size: 13px;
+	color: #525251;
+	padding-bottom: 18px;
+}
+
+.box64 form input[type="email"]{
+	background-color: #cecdc8;
+	margin-bottom: 18px;
+}
+
+.box64 form input[type="email"]:hover{
+	background-color: #e3e1dd;
+}
+
+/*end floor6*/
